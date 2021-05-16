@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin-top: 0px;
+    width:30%;
+    margin: 50px auto 0 auto;
+    /* 100% fontsize == 16px 50 px == 312.5%*/
+    /* 1 em = 16px 50px = 3.125 em*/
+    /*font-size: 50px; is static ; if we change font size in chrome from small to large it doesnot change according to background*/
+    /*font-size: 312.5%;*/
+    /* em and % are inherient if keep font size in body as 2 e then it will add up to font size in h1*/
+    /*css 3 to overcome inheritent property from em and % we use rem*/
+    /*use rem*/
+    font-size: 3.125em;
+    font-family: 'Architects Daughter', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5em;
+}
+h3{
+    color:#11999E
+}
+p{
+    line-height: 2;
+}
+a{
+    color:#11999E;
+}
+a:hover{
+    color:#EAF6F6;
+}
+hr{
+   border-top:7px dotted #a3ddcb;
+   border-style: dotted none none none ;
+   width:5%;
+}
+#subtag{
+    font-weight: normal;
+}
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+.middle-container{
+    margin: 100px 0px;
+}
+.bottom-container{
+   background-color: #66BFBF;
+   margin-top: 10px;
+   padding: 50px 0px 10px 0px;
+   
+}
+.footer-message{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px;
+}
+.footer-link{
+    color: #11999E;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.singing-img{
+    float: left;
+    width: 35%;
+    margin-right: 30px;
+    
+}
+.model-img{
+    float: right;
+    width:35%;
+    margin-right: 30px;
+    
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
