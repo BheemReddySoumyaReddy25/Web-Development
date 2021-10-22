@@ -1,0 +1,10 @@
+<%- include("partials/header"); -%>
+<div class="date">
+    <h1 style="display: inline-block" ><%=post.title %>  </h2>
+    <a href = "/delete/<%=post._id%>">
+        <i class="fa fa-trash fa-2x"  aria-hidden="true" style="float:right;color: rgb(165, 2, 2); "></i>
+    </a>
+</div>
+<br>
+<p><%= post.content%></p>
+<%- include("partials/footer"); -%>

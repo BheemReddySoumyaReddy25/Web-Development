@@ -1,0 +1,17 @@
+<%- include("partials/header"); -%>
+<h1>Home</h1>
+<p><%=StartingContent %></p>
+<% posts.forEach(function(post){ %>
+    <div class="date">
+        <h2 style="display: inline-block" ><%=post.title%>  </h2>
+        <a href = "/delete/<%=post._id%>">
+            <i class="fa fa-trash fa-2x"  aria-hidden="true" style="float:right;color: rgb(165, 2, 2); "></i>
+        </a>
+    </div>
+    <br>
+    <p><%= post.content.substring(0,100)+"..."%>
+        <a href="/posts/<%=post._id%>">Read me</a>
+    </p>
+    
+<% }) %>
+<%- include("partials/footer"); -%>
